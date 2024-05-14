@@ -1,0 +1,51 @@
+class StringConst{
+
+  static const String appId = "com.app.create.rs.get.resumebuilder1";
+  static const String adsUrl= "https://rutuarthaya.github.io/new_project2/com.app.create.rs.get.resumebuilder1.txt";
+  static const String intro1 = "Manage and organize\npersonal, professional & business life in a cloud based hub.";
+  static const String intro2 = "By setting up different contact groups, you can determine what kind of content will your contacts see on your feed.";
+  static const String intro3 = "Create an online resume hat is easy to follow and shows all your awesome skills.";
+  static const String i11 = "Calling Customers and Informing Them About the Company's Product/ Service Call...";
+  static const String i12 = "Talking to Customers Selling them Company's Product/ Service Knowledge";
+  static const String i21 = "Collecting and Entering Data, Updating Changes, Maintaining Sheets, Organise Files a...";
+  static const String i22 = "Manage Hr Work Like recruitment, talent development, employee relations, benefits administration, and ensuring compliance with labor laws and company policies.";
+  static const String i31 = "Greet and welcome visitors with a warm and professional demeanor.";
+  static const String i32 = "Handling Incoming & Out Going Calls, responsible for greeting visitors, and directing inquiries to the appropriate individuals or departments.";
+  static const String i41 = "Bachelor's degree in marketing, business, or a related field (MBA is a plus).";
+  static const String i42 = "Develop and implement sales and marketing strategies to achieve company goals.";
+  static const String i51 = "Talking to Customers Selling them Company's Product/ service Knowledge";
+  static const String i52 = "Responsible for Teaching Students, Conducting Tests and solving Problems, Evaluating Stude...";
+  static const String i61 = "Identify and pursue sales opportunities, build and manage a sales pipeline.";
+  static const String i62 = "Maintaining Clients Accounts, Preparing Reports and Bills, Maintaining Sheets.";
+  static const String i71 = "Cleaning the office / Serving Tea-Coffee / Deposit Cheque.";
+  static const String i72 = "Basic Knowledge About Computer, Responsible for All Typing and Companies Entry Work.";
+  static const String i81 = "Bachelor's degree in a relevant field (e.g., sales, media, design, marketing).";
+  static const String i82 = "Identify and pursue sales opportunities, build and manage a sales pipeline.";
+  static const String i91 = "Prepare and cook a variety of dishes according to established recipes and standards.";
+  static const String i92 = "Serve food and beverages to guests promptly and with a professional demeanor.";
+  static const String i101 = "Design and develop responsive, high-performance web applications and websites.";
+  static const String i102 = "Design, implement, and maintain network infrastructure, including routers, switches, firewalls, and wireless access points.";
+  static const String i111 = "Clean and sanitize guest rooms, bathrooms, and common areas according to established standards.";
+  static const String i112 = "Prepare and cook a variety of dishes according to established recipes and standards.";
+  static const String i121 = "Conduct thorough medical assessments, examinations, and diagnoses for patients.";
+  static const String i122 = "Registered Nurse (RN) or Licensed Practical Nurse (LPN) certification (for Nurse applicants).";
+  static const String i131 = "Assist in maintaining a clean and hygienic environment in patient wards.";
+  static const String i132 = "Monitor and patrol assigned areas to prevent unauthorized access and maintain security.";
+  static const String i141 = "Safely and efficiently operate a delivery vehicle (e.g., car, van, truck) to transport goods to designated locations.";
+  static const String i142 = "Transport passengers, goods, or materials to designated locations, following predetermined routes or instructions.";
+  static const String i151 = "Perform a variety of beauty treatments, including facials, makeup application, waxing, manicures, pedicures, and hair styling.";
+  static const String i152 = "Provide a variety of spa treatments, including massages, facials, body wraps, and aromatherapy.";
+  static const String i161 = "Conceptualize and sketch fashion collections, including clothing, accessories, and footwear.";
+  static const String i162 = "Sew, alter, and repair clothing items, including suits, dresses, trousers, and outerwear.";
+  static const String i171 = "Set up, operate, and maintain production machinery and equipment according to standard operating procedures.";
+  static const String i172 = "Responsible for Providing Repairing Services";
+  static const String i181 = "Assist attorneys and legal professionals in preparing legal documents, contracts, and pleadings.";
+  static const String i182 = "Conduct legal research to gather relevant case law, statutes, regulations, and other pertinent information.";
+  static const String i191 = "Plan and execute photo shoots, including setting up equipment, selecting locations, and arranging props or subjects.";
+  static const String i192 = "Capture and edit high-quality photographs using digital cameras and editing software.";
+  static const String i201 = "Calling Customers and Informing Them About the Company's Product/ Service Call...";
+  static const String i202 = "Greet and welcome visitors with a warm and professional demeanor.";
+  static const String createResume = "Feel free to customize this template to fit your specific background and career goals. Good luck with your job search!";
+  static const String uploadResume = "Upload your existing resume to make it easily accessible and shareable with potential employers. Ensure your professional history is just a tap away.";
+
+}
