@@ -65,32 +65,40 @@ class _SMSScreenState extends State<SMSScreen> {
       appBar: AppBar(
         title: Text("Contacts"),
       ),
-      body: ListView.builder(
-        itemCount: contacts.length,
-        itemBuilder: (context, index) {
-          Contact c = contacts[index];
-          String name = " ";
-          if(c.displayName != null){
-            name = c.displayName!;
-          }
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            ListView.builder(
+              physics: NeverScrollableScrollPhysics(),
+              shrinkWrap: true,
+              itemCount: contacts.length,
+              itemBuilder: (context, index) {
+                Contact c = contacts[index];
+                String name = " ";
+                if(c.displayName != null){
+                  name = c.displayName!;
+                }
 
-          String phoneNo = " ";
-          if(c.phones != null && c.phones!.isNotEmpty){
-            Item item = c.phones![0];
-            if(item.value != null){
-              phoneNo = item.value!;
-            }
-          }
+                String phoneNo = " ";
+                if(c.phones != null && c.phones!.isNotEmpty){
+                  Item item = c.phones![0];
+                  if(item.value != null){
+                    phoneNo = item.value!;
+                  }
+                }
 
-          return Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Flexible(child: Text(name)),
-              Text(phoneNo),
-            ],
-          );
+                return Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Flexible(child: Text(name)),
+                    Text(phoneNo),
+                  ],
+                );
 
-        },),
+              },),
+          ],
+        ),
+      ),
     );
   }
 }
